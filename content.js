@@ -19,7 +19,7 @@ var fontPrivacy = '(' + function () {
 	var originalNodeAppendChild = Node.prototype.appendChild
 
 	var baseFonts = ["monospace", "sans-serif", "serif"]
-	var commonFonts = ["Arial","Arial Black","Arial Narrow","Arial Unicode MS","Book Antiqua","Bookman Old Style","Calibri","Cambria","Cambria Math","Century","Century Gothic","Century Schoolbook","Comic Sans MS","Consolas","Courier","Courier New","Garamond","Georgia","Helvetica","Impact","Lucida Bright","Lucida Calligraphy","Lucida Console","Lucida Fax","Lucida Handwriting","Lucida Sans","Lucida Sans Typewriter","Lucida Sans Unicode","Microsoft Sans Serif","Monotype Corsiva","MS Gothic","MS Outlook","MS PGothic","MS Reference Sans Serif","MS Sans Serif","MS Serif","Palatino Linotype","Segoe Print","Segoe Script","Segoe UI","Segoe UI Light","Segoe UI Semibold","Segoe UI Symbol","Tahoma","Times","Times New Roman","Trebuchet MS","Verdana","Wingdings","Wingdings 2","Wingdings 3"].map(function(x){return x.toLowerCase()})
+	var commonFonts = ["Wingdings","Wingdings 2","Wingdings 3"].map(function(x){return x.toLowerCase()})
 	var keywords = ["inherit", "auto", "default"]
 	baseFonts.push.apply(baseFonts, commonFonts)
 	baseFonts.push.apply(baseFonts, keywords)
